@@ -1,0 +1,14 @@
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+checkpoints_v2/
+processed/
+temp_chunks/
+*.pth
+*.pt
+*.mp3
+*.mp4
+*.wav
+ffmpeg.exe
