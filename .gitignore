@@ -11,4 +11,5 @@ temp_chunks/
 *.mp3
 *.mp4
 *.wav
+*.zip
 ffmpeg.exe

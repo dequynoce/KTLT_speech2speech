@@ -5,6 +5,22 @@
 * **Sinh viên thực hiện:** Dương Quốc Chính
 * **Môi trường thực thi:** Môi trường ảo hóa cục bộ (`.venv` - Python 3.10) cô lập hoàn toàn với Hệ điều hành.
 
+## 0. CÀI ĐẶT NHANH
+
+Repo này đã bao gồm sẵn mã nguồn `MeloTTS/` và `OpenVoice/`, nên người clone về không cần tách ra cài từng repo con nữa.
+
+```powershell
+.\setup.ps1
+```
+
+Sau khi script chạy xong, mở `speech_2_speech.ipynb` và chạy toàn bộ notebook. Script sẽ tự tạo môi trường ảo, cài dependency, tải `unidic`, và kéo checkpoint OpenVoice về máy local.
+
+Nếu PowerShell chặn việc chạy script, dùng lệnh sau một lần trong phiên hiện tại:
+
+```powershell
+Set-ExecutionPolicy -Scope Process Bypass
+```
+
 ---
 
 ## 1. TỔNG QUAN ĐỀ TÀI & MỤC TIÊU
